@@ -1,0 +1,518 @@
+*{margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+.text_light_gray{
+font-size: 16px;
+line-height: 32px;
+color: rgba(57, 20, 0, 0.64);
+}
+
+.text_light_accent{
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(100, 83, 73, 0.64);
+}
+
+
+.nav_logo{
+    height: 100px;
+}
+
+.text_light{
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+color: rgba(57, 20, 0, 0.64);
+}
+.text_light_middle{
+font-size: 20px;
+line-height: 32px;
+color: rgba(57, 20, 0, 0.64);
+}
+.bigtext_light{
+font-weight: 800;
+font-size: 72px;
+line-height: 80px;
+letter-spacing: -2px;
+color: #FFFFFF;
+}
+.bigtext_dark{
+font-weight: 800;
+font-size: 56px;
+line-height: 64px;
+letter-spacing: -1px;
+color: #391400;
+}
+.text_dark{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+}
+.text_dark_mini{
+    font-size: 20px;
+    line-height: 32px;
+    color: #391400;
+}
+.text_dark_middle{
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+color: #391400;
+}
+.button_dark{
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 18px 35px;
+    background-color: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.295);
+}
+.orange_button{
+font-weight: 900;
+font-size: 14px;
+line-height: 14px;
+text-transform: uppercase;
+color: #FFFFFF;
+border: none;
+padding: 18px 26px;
+background-color:#EF6D58 ;
+border-radius: 6px;
+width: 154px;
+}
+.button_light{
+font-weight: 900;
+font-size: 14px;
+line-height: 14px;
+text-transform: uppercase;
+color: #000000;
+border: none;
+padding: 18px;
+background-color:#ffffff ;
+border-radius: 6px;
+width: 170px;
+box-shadow: #a7a8c728 0 0 5px 5px;
+}
+.button_light:active,.button_dark:active{
+    background-color:#EF6D58 ;
+}
+.orange_button:active{
+    background-color: #FDF0E9;
+    color: #391400;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #FFC9CD;
+    height: 450px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+.nav__links{
+    display: flex;
+    gap: 93px;
+    list-style: none;
+}
+.nav__link{
+    text-decoration: none;
+font-size: 16px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+}
+.nav__link:hover{
+    color:rgba(57, 20, 0, 0.64) ;
+}
+.nav__menu{
+    display: none;
+}
+
+.header__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__title{
+    text-align: center;
+    padding: 100px 0 24px;
+}
+.header__text{
+    text-align: center;
+    width: 570px;
+    padding-bottom: 66px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.row.reverse {
+    flex-direction: row-reverse;
+}
+
+.school {
+    padding: 20px 300px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.school-section, .university-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+    .school h2 {
+        font-size: 24px;
+        color: #FF8C94;
+        margin-bottom: 10px;
+    }
+    
+    .school p {
+        margin-bottom: 10px;
+    }
+    
+    .school ul {
+        list-style: none;
+    }
+    
+    .school ul li {
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 8px;
+    }
+    
+    .school ul li:before {
+        content: "✔️";
+        position: absolute;
+        left: 0;
+        color: #000;
+    }
+    
+    .stats {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .score, .scholarship {
+        text-align: center;
+    }
+    
+    .large {
+        font-size: 36px;
+        font-weight: bold;
+        color: #FF8C94;
+    }
+
+.text-block {
+    max-width: 600px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.row.reverse {
+    flex-direction: row-reverse;
+}
+.image {
+    flex: 1;
+    padding: 20px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+    max-width: 550px;
+}
+
+.school_image{
+height: 400px;
+}
+
+.uni_image{
+    height: 400px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.content h3 {
+    color: #FFC9CD;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.content ul li::before {
+    content: '✔️';
+    color: #FFC9CD;
+    position: absolute;
+    left: 0;
+    margin-right: 50px;
+}
+.stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.stats .stat .stat-plus {
+    font-size: 54px;
+    color: #FFC9CD;
+    font-weight: bold;
+    display: inline;
+}
+
+.stats .stat .stat-number {
+    font-size: 54px;
+    color: black;
+    font-weight: bold;
+    display: inline;
+}
+.stats .stat {
+    text-align: left;
+}
+
+.stats .stat span {
+    font-size: 24px;
+    color: #ff5722;
+    font-weight: bold;
+    display: block;
+}
+
+.stats .stat p {
+    font-size: 14px;
+    color: #777;
+}
+
+.schedule {
+    padding: 50px 0;
+}
+
+.schedule__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.schedule__table th,
+.schedule__table td {
+    padding: 15px;
+    border: 1px solid rgba(57, 20, 0, 0.64);
+    color: black;
+    text-align: center;
+}
+
+.schedule__table th {
+    background-color: #FFC9CD;
+    font-weight: bold;
+}
+
+.schedule__table tr:nth-child(even) {
+    background-color: #FFC9CD;
+}
+
+.schedule__title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+.footer{
+    margin-top: 200px;
+    background-color: #FFC9CD;
+}
+.footer__main{
+    display: flex;
+    justify-content: space-between;
+    padding: 89px 0 68px;
+}
+.footer__title{
+    font-weight: bold;
+    font-size: 24px;
+}
+.footer__item{
+    font-size: 16px;
+    list-style: none;
+    padding-top: 15px;
+}
+.footer__item:first-child{
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+.footer__links{
+    display: flex;
+    gap: 8px;
+}
+.footer__postfooter{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(57, 20, 0, 0.64);
+    padding: 43px 0 52px;
+}
+.footer__privacybox{
+    display: flex;
+    gap: 68px;
+}
+.footer__box{
+    display: flex;
+    background-color:rgba(57, 20, 0, 0.64) ;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 844px) {
+    .wrapper {
+        width: 100%;
+    }
+    .schedule__table, 
+    .schedule__table tbody, 
+    .schedule__table tr, 
+    .schedule__table th, 
+    .schedule__table td {
+        display: block;
+        width: 75%; 
+    }
+    .nav__menu{
+        display: block;
+        padding-right: 46px;
+    }
+
+
+    .schedule__table tr {
+        margin-bottom: 10px;
+        border: 1px solid rgba(57, 20, 0, 0.64);
+    }
+
+    .schedule__table th {
+        background-color: #FFC9CD;
+        font-weight: bold;
+        text-align: left;
+        padding: 15px;
+    }
+
+    .schedule__table td {
+        text-align: left;
+        padding: 12px 15px;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    .schedule__table td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        top: 12px;
+        white-space: nowrap;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #555;
+    }
+    nav__menu{
+        display: block;
+        padding-right: 46px;
+    }
+    .nav__button,.nav__links{
+        display: none;
+    }
+    .nav{
+        padding: 16px 23px;
+        justify-content: space-between;
+    }
+
+
+    .header__title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .header__text {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .school {
+        padding: 20px;
+    }
+
+    .footer__main, .footer__postfooter {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .school-section, .university-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image {
+        max-width: 100%;
+    }
+}
+
